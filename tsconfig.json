@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/app/components/Menu.jsx",
+    "src/app/components/About.jsx",
+    "src/app/components/Achievements.jsx",
+    "src/app/components/EmailSection.jsx",
+    "src/app/components/Footer.jsx",
+    "src/app/components/HeroSection.jsx",
+    "src/app/components/navbar.jsx",
+    "src/app/components/Navlink.jsx",
+    "src/app/components/projectcard.jsx",
+    "src/app/components/projectsection.jsx",
+    "src/app/components/projecttag.jsx",
+    "src/app/components/tabbutton.jsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
